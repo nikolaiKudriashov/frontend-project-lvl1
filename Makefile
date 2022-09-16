@@ -2,10 +2,13 @@ install: # разворачивание node-modules
 	npm ci
 
 brain-games: # запуск brain-games
-	node bin/brain-games.js
+	node src/bin/brain-games.js
 
 even: # запуск brain-even
-	node bin/brain-even.js
+	node src/bin/brain-even.js
+
+calc: #запуск brain-calc
+	node src/bin/brain-calc.js
 
 publish: #публикация
 	npm publish --dry-run
