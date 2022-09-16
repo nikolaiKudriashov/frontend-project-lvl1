@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/nikolaiKudriashov/frontend-project-lvl1#readme",
   "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-games": "src/bin/brain-games.js",
+    "brain-even": "src/bin/brain-even.js",
+    "brain-calc": "src/bin/brain-calc.js"
   },
   "dependencies": {
+    "@hexlet/pairs": "^1.1.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
