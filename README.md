@@ -3,4 +3,6 @@
 
 <a href="https://codeclimate.com/github/nikolaiKudriashov/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/0f0896a7d3637d5ac299/maintainability" /></a>
 
-https://asciinema.org/a/DFfu6e8vEBSOlJVbbKiIhWqp8
+https://asciinema.org/a/aeSPyfvvvHE9vpNFx1VKnhDvL
+
+https://asciinema.org/a/5LsKHQFPgvLXOsWsuUqTUf7uD
