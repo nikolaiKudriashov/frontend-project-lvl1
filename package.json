@@ -20,7 +20,8 @@
   "bin": {
     "brain-games": "src/bin/brain-games.js",
     "brain-even": "src/bin/brain-even.js",
-    "brain-calc": "src/bin/brain-calc.js"
+    "brain-calc": "src/bin/brain-calc.js",
+    "brain-gcd": "src/bin/brain-gcd.js"
   },
   "dependencies": {
     "@hexlet/pairs": "^1.1.1",
