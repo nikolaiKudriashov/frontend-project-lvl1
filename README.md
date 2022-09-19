@@ -10,3 +10,5 @@ Calc: https://asciinema.org/a/5LsKHQFPgvLXOsWsuUqTUf7uD
 GCD: https://asciinema.org/a/QtImMlk2KTlBl0DEkzNK3PIhy
 
 Progression: https://asciinema.org/a/Ff4fKqFEyrD5GpAR6VSOBmZBc
+
+Prime: https://asciinema.org/a/aR4HTWuStVbymTOeQ28dRLdoC
