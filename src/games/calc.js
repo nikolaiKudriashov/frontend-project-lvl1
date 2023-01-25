@@ -1,29 +1,29 @@
 import { cons } from '@hexlet/pairs';
-import gameEngine from '../index.js';
-import randomInt from '../utils.js';
+import playGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const message = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 
-const getGame = () => {
-  const a = randomInt(1, 100);
-  const b = randomInt(1, 100);
-  const operator = randomInt(1, 3);
+const generateRound = () => {
+  const number1 = getRandomNumber(1, 100);
+  const number2 = getRandomNumber(1, 100);
+  const operator = getRandomNumber(1, 3);
 
   let question;
   let correctAnswer;
 
   switch (operator) {
     case 1:
-      question = `${a} + ${b}`;
-      correctAnswer = String(a + b);
+      question = `${number1} + ${number2}`;
+      correctAnswer = String(number1 + number2);
       break;
     case 2:
-      question = `${a} - ${b}`;
-      correctAnswer = String(a - b);
+      question = `${number1} - ${number2}`;
+      correctAnswer = String(number1 - number2);
       break;
     case 3:
-      question = `${a} * ${b}`;
-      correctAnswer = String(a * b);
+      question = `${number1} * ${number2}`;
+      correctAnswer = String(number1 * number2);
       break;
     default:
       break;
@@ -32,4 +32,4 @@ const getGame = () => {
   return cons(question, correctAnswer);
 };
 
-export default () => gameEngine(message, getGame);
+export default () => playGame(description, generateRound);
