@@ -3,12 +3,12 @@
 
 <a href="https://codeclimate.com/github/nikolaiKudriashov/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/0f0896a7d3637d5ac299/maintainability" /></a>
 
-Even: https://asciinema.org/a/aeSPyfvvvHE9vpNFx1VKnhDvL
+Even: <a href="https://asciinema.org/a/aeSPyfvvvHE9vpNFx1VKnhDvL" target="_blank"><img src="https://asciinema.org/a/aeSPyfvvvHE9vpNFx1VKnhDvL.svg" /></a>
 
-Calc: https://asciinema.org/a/5LsKHQFPgvLXOsWsuUqTUf7uD
+Calc: <a href="https://asciinema.org/a/5LsKHQFPgvLXOsWsuUqTUf7uD" target="_blank"><img src="https://asciinema.org/a/5LsKHQFPgvLXOsWsuUqTUf7uD.svg" /></a>
 
-GCD: https://asciinema.org/a/QtImMlk2KTlBl0DEkzNK3PIhy
+GCD: <a href="https://asciinema.org/a/QtImMlk2KTlBl0DEkzNK3PIhy" target="_blank"><img src="https://asciinema.org/a/QtImMlk2KTlBl0DEkzNK3PIhy.svg" /></a>
 
-Progression: https://asciinema.org/a/Ff4fKqFEyrD5GpAR6VSOBmZBc
+Progression: <a href="https://asciinema.org/a/Ff4fKqFEyrD5GpAR6VSOBmZBc" target="_blank"><img src="https://asciinema.org/a/Ff4fKqFEyrD5GpAR6VSOBmZBc.svg" /></a>
 
-Prime: https://asciinema.org/a/aR4HTWuStVbymTOeQ28dRLdoC
+Prime: <a href="https://asciinema.org/a/aR4HTWuStVbymTOeQ28dRLdoC" target="_blank"><img src="https://asciinema.org/a/aR4HTWuStVbymTOeQ28dRLdoC.svg" /></a>
