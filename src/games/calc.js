@@ -1,4 +1,3 @@
-import { cons } from '@hexlet/pairs';
 import playGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
@@ -34,7 +33,7 @@ const generateRound = () => {
       break;
   }
 
-  return cons(question, correctAnswer);
+  return [question, correctAnswer];
 };
 
 export default () => playGame(description, generateRound);

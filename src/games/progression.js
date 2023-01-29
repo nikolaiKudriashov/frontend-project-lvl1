@@ -1,4 +1,3 @@
-import { cons } from '@hexlet/pairs';
 import playGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
@@ -17,7 +16,7 @@ const generateRound = () => {
     question += i === hiddenElementIndex ? '.. ' : `${startNum + i * progressionDiff} `;
   }
 
-  return cons(question, correctAnswer);
+  return [question, correctAnswer];
 };
 
 export default () => playGame(description, generateRound);

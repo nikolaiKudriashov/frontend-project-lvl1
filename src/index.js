@@ -1,18 +1,15 @@
 import readlineSync from 'readline-sync';
-import { car, cdr } from '@hexlet/pairs';
 
 const roundsCount = 3;
 
-const playGame = (message, getGame) => {
+const playGame = (message, generateRound) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(`${message}`);
 
   for (let round = 0; round < roundsCount; round += 1) {
-    const game = getGame();
-    const question = car(game);
-    const correctAnswer = cdr(game);
+    const [question, correctAnswer] = generateRound();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
