@@ -13,7 +13,6 @@ const getOperator = () => {
 const generateRound = () => {
   const number1 = getRandomNumber(1, 100);
   const number2 = getRandomNumber(1, 100);
-  const operator = getRandomNumber(1, 3);
 
   let question;
   let correctAnswer;
