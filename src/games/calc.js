@@ -7,7 +7,7 @@ const getOperator = () => {
   const operators = ['+', '-', '*'];
   const operatorNumber = getRandomNumber(0, 2);
   return operators[operatorNumber];
-}
+};
 
 const generateRound = () => {
   const number1 = getRandomNumber(1, 100);
