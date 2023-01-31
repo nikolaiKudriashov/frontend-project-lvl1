@@ -2,7 +2,6 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/nikolaiKudriashov/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/nikolaiKudriashov/frontend-project-lvl1/actions)",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +25,6 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "dependencies": {
-    "@hexlet/pairs": "^1.1.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
