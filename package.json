@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/nikolaiKudriashov/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/nikolaiKudriashov/frontend-project-lvl1/actions)",
+  "description": "First project in Hexlet frontend course, series of 5 console mini-games",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
