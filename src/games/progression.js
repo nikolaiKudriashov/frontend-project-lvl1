@@ -6,7 +6,7 @@ const description = 'What number is missing in the progression?';
 const generateQuestion = (start, step, length, hiddenNumberIndex) => {
   let result = '';
   for (let i = 0; i < length; i += 1) {
-    result += i === hidden ? '.. ' : `${start + i * step} `;
+    result += i === hiddenNumberIndex ? '.. ' : `${start + i * step} `;
   }
   return result;
 };
