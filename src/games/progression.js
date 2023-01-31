@@ -18,7 +18,7 @@ const generateRound = () => {
   const hiddenNumberIndex = getRandomNumber(0, length - 1);
 
   const correctAnswer = String(start + step * hiddenNumberIndex);
-  const question = generateQuestion(start, step, length, hiddenNumberIndex );
+  const question = generateQuestion(start, step, length, hiddenNumberIndex);
 
   return [question, correctAnswer];
 };

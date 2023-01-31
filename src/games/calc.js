@@ -12,10 +12,9 @@ const calculate = (operator, number1, number2) => {
     case '*':
       return number1 * number2;
     default:
-      break;
+      return null;
   }
 };
-
 
 const generateRound = () => {
   const number1 = getRandomNumber(1, 100);
