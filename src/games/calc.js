@@ -12,7 +12,7 @@ const calculate = (operator, number1, number2) => {
     case '*':
       return number1 * number2;
     default:
-      return null;
+      throw new Error('Unknown state!');
   }
 };
 
